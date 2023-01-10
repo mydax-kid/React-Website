@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-container{
+    background-image: url('https://images.pexels.com/photos/207896/pexels-photo-207896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 92vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+
+}
+
+.hero-btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.primary{
+    border: 1px solid white;
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.special{
+    padding: 12px 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+
+.hero-btns button{
+  transition: all .4s ease-in;    
+}
+
+.primary:hover{
+    background-color: white;
+    color: black;
+}
+
+.special:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.home-title{
+    font-size: 3rem;
+}
+
+.home-text{
+    font-size: 1.5rem;
+}

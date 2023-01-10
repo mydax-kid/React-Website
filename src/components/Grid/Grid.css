@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container >li{
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 750px){
+  .card-container{
+      flex-direction: column;
+  }
+
+  .grid{
+    padding: 50px 0px;    
+  }
+
+}
